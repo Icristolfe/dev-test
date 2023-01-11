@@ -18,6 +18,19 @@
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52620844503/in/dateposted-public/" title="Captura de tela de 2023-01-11 02-52-14"><img src="https://live.staticflickr.com/65535/52620844503_992327aa5a_c.jpg" width="800" height="390" alt="Captura de tela de 2023-01-11 02-52-14"></a>
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52619851542/in/dateposted-public/" title="Captura de tela de 2023-01-11 02-54-45"><img src="https://live.staticflickr.com/65535/52619851542_9750c92597_c.jpg" width="800" height="251" alt="Captura de tela de 2023-01-11 02-54-45"></a>
 
+
+
+```
+Rotas:
+
+Inicio: localhost:80/
+Login Professor: localhost:80/proflogin
+Login Aluno: localhost:80/alunologin
+Home Professor: localhost:80/professor
+Home Aluno: localhost:80/aluno
+para iniciar o docker compose => docker-compose up
+para rodar o container em detached mode => docker-compose up -d
+```
 ## Criador do Projeto
 <table>
   <tr>
