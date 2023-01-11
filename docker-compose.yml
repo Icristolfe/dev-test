@@ -1,12 +1,9 @@
-version: '3.8'
+version: '3'
 services:
-  client:
-    build: 
-      context: .
-      dockerfile: Dockerfile.dev
-    stdin_open: true
+  app:
+    build: .
+    command: yarn start
     ports:
       - "80:4000"
     volumes:
-      - "./home/cristolfe/Documentos/dev-test/node_modules:/home/cristolfe/Documentos/dev-test/node_modules"
-      - "./:/home/app"
+      - .:/app
