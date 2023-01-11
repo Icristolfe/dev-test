@@ -1,0 +1,6 @@
+export * from './LoginProfessor'
+export * from './LoginAluno'
+export * from './Inicio'
+export * from './HomeProfessor'
+export * from './HomeAluno'
+export * from './PerfilProfessor'
