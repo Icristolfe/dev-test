@@ -65,13 +65,13 @@ export function Aluno() {
               </div>
              </Header>
              <div className='topTable'>
-             <h1>Meus Alunos</h1>
+             <h1>{name}</h1>
              </div>
              
       <ContainerItems>
             <div className='dataTable'>
               <div className='alignImage'>
-            <p>Nome do Aluno</p>
+            <p>Minha Nota</p>
             <img src={Arrow} alt='icon-arrow' />
             </div>
             <p>Atualização</p>
